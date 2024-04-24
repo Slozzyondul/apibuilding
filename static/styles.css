@@ -1,8 +1,59 @@
-h1 {
-  color: red
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
 }
 
-img{
-  width: 100px;
-  height: 50px;
+/* Body styles */
+body {
+  font-family: Arial, sans-serif; /* Default font family */
+  line-height: 1.6; /* Default line height */
+  background-color: #f9f9f9; /* Default background color */
+  color: #333; /* Default text color */
+}
+
+/* Header styles */
+header {
+  background-color: #333; /* Header background color */
+  color: #fff; /* Header text color */
+  padding: 20px; /* Header padding */
+}
+
+/* Navigation styles */
+nav {
+  background-color: #333; /* Navigation background color */
+}
+
+nav ul {
+  list-style-type: none; /* Remove bullet points */
+}
+
+nav ul li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 20px; /* Add right margin between list items */
+}
+
+nav ul li a {
+  color: #fff; /* Navigation link text color */
+  text-decoration: none; /* Remove underline */
+}
+
+nav ul li a:hover {
+  color: #ddd; /* Navigation link text color on hover */
+}
+
+/* Main content container */
+.container {
+  width: 80%; /* Set main content width */
+  margin: auto; /* Center align the container */
+  padding: 20px; /* Add padding around the container */
+}
+
+/* Footer styles */
+footer {
+  background-color: #333; /* Footer background color */
+  color: #fff; /* Footer text color */
+  text-align: center; /* Center align footer content */
+  padding: 20px; /* Footer padding */
 }

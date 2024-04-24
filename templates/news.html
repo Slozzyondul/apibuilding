@@ -6,27 +6,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="{% static 'styles.css' %}">
-  <title>Random facts</title>
+  <title>News</title>
 </head>
 <body>
   
   <nav class="top-menu">
     <ul>
+      <li><a href="{% url 'index' %}">Home</a></li>
       <li><a href="{% url 'images' %}">Images</a></li>
-      <li><a href="{% url 'news' %}">News</a></li>
       <li><a href="{% url 'sports' %}">Sports</a></li>
     </ul>
   </nav>
 
-  <h1>Random Fact</h1>
-  {{ fact }}
+  <h1>News</h1>
+  {{ news }}
   
 </body>
-
-  <footer>
-      <p>This is the footer content. &copy; 2024 Your Website</p>
-  </footer>
-
 </html>
-
-
